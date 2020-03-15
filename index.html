@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>BCAL国内線-航空券 予約・空席照会</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    
+    <p><img src="images/bee.png" width="5%" height="5%"> BLUE Cloud AIRLINES</p>
+    
+    <div class="booking">
+      <br>
+      <span class="title">
+	<img src="images/plane.png" width="5%" height="5%">
+	航空券予約
+	<img src="images/plane.png" width="5%" height="5%">
+      </span><br><br>
+
+      <span class="radiobutton">
+	<input type="radio" checked> 往復
+	<input type="radio">片道
+      </span><br><br>
+
+      <div class="airport">
+	出発
+	<select>
+	  <option>東京(羽田)</option>
+	  <option>東京(成田)</option>
+	  <option>大阪(伊丹)</option>
+	  <option>大阪(関西)</option>
+	  <option>札幌(新千歳)</option>
+	  <option>名古屋(中部・小牧)</option>
+	  <option>福岡</option>
+	  <option>沖縄(那覇)</option>
+	</select>
+      </div><br>
+
+      <div class="airport">
+	到着
+	<select>
+	  <option>東京(羽田)</option>
+	  <option>東京(成田)</option>
+	  <option>大阪(伊丹)</option>
+	  <option>大阪(関西)</option>
+	  <option>札幌(新千歳)</option>
+	  <option>名古屋(中部・小牧)</option>
+	  <option>福岡</option>
+	  <option>沖縄(那覇)</option>
+	</select>
+      </div><br><br>
+
+      <div class="airport">
+	行き
+	<input type="date" min="2020-04-01" max="2020-05-31">
+      </div><br>
+      <div class="airport">
+	帰り
+	<input type="date" min="2020-04-01" max="2020-05-31">
+      </div><br><br>
+
+      <a href="loading.html" id="search">検索する</a>
+    </div>
+  </body>
+</html>
