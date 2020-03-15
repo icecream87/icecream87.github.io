@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>お支払い方法の選択</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="credit.css">
+  </head>
+  <body>
+    <header><img src="images/bee.png" width="4%" height="4%"> BLUE Cloud AIRLINES</header>
+    <br>
+    <h3>お支払い方法をお選びください。</h3>
+
+    <div class="Choice">
+      <h4>お支払い方法</h4>
+      <div class="choices">
+	<input type="radio" checked>クレジットカード
+      </div>
+      <div class="choices">
+	<input type="radio">eBCLAポイント＋クレジットカード
+      </div>
+      <div class="choices">
+	<input type="radio">コンビニエンスストア・銀行・郵便局ATM
+      </div>
+      <div class="choices">
+	<input type="radio">インターネット振込
+      </div>
+    </div>
+
+    <h4>クレジットカードでのお支払い</h4>
+    <div class="card">
+      <table border=1 bordercolor="silver" width="800" height="400">
+	<tr>
+	  <td align="center" bgcolor="whitesmoke">
+	    <span class="must">必須</span>カード番号
+	  </td>
+	  <td bgcolor="white">
+	    <input class="input" type="number" min="0" max="9999999999999999" style="width: 150px" placeholder="例：1234567890123456">
+	  </td>
+	</tr>
+	<tr>
+	  <td align="center" bgcolor="whitesmoke">
+	    <span class="must">必須</span>有効期限
+	  </td>
+	  <td><input class="input" type="number" min="1" max="12">月 /
+	    <input class="input" type="number" min="20">年</td>
+	</tr>
+	<tr>
+	  <td align="center" bgcolor="whitesmoke">
+	    <span class="must">必須</span>名義人
+	  </td>
+	  <td bgcolor="white">
+	    カードの表記のとおりにご入力ください。<br>
+	    名<input class="input" type="text" placeholder="例：TABITO"> &emsp;
+	    姓<input class="input" type="text" placeholder="例：OOZORA">
+	  </td>	
+	</tr>
+	<tr>
+	  <td align="center" bgcolor="whitesmoke">
+	    <span class="must">必須</span>認証情報
+	  </td>
+	  <td bgcolor="white">セキュリティコード(半角数字)<br>
+	    <input class="input" type="number" min="100" max="9999" placeholder="例：123">
+	    (カード裏面または表面3~4桁の数字)
+	  </td>
+	</tr>
+      </table>
+    </div>
+    <br>
+    <a href="completed.html" id="buy">航空券を購入する</a>
+    <br><br>
+  </body>
+</html>

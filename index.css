@@ -1,0 +1,65 @@
+* {
+    margin: 4px;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: 0px 100px;
+    background-size: cover;
+
+    font-family: 'arial black', sans-serif;
+}
+
+p {
+    margin: 0px 150px;
+    font-size: 60px;
+}
+
+.booking {
+    margin: 50px 150px;
+    width: 360px;
+    height: 480px;
+    color: white;
+    background: crimson;
+    border-left: double 20px salmon;
+    border-right: double 20px salmon;
+
+    text-align: center;
+}
+
+.title {
+    font-size: 30px;
+}
+
+
+.radiobutton {
+    font-size: 18px;
+}
+
+.airport {
+    color: crimson;
+    background-color: white;
+    border-left: double 10px salmon;
+    border-right: double 10px salmon;
+    margin: 0 auto;
+    width: 300px;
+    font-size: 18px;
+}
+
+#search {
+    display: inline-block;
+    color: white;
+    background-color: darkgray;
+    border: solid 2px white;
+    margin: 0 auto;
+    width: 200px;
+    font-size: 25px;
+    border-bottom: solid 2px gray;
+    text-decoration: none;
+}
+#search:active {
+    -weblit-transform: translateY(4px);
+    transform: translateY(4px);
+    border-bottom: none;
+}
