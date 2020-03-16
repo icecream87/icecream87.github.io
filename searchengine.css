@@ -15,7 +15,7 @@ p { /* IBlueMの文字 */
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
 }
 
-input { /* .text内のテキストボックス */
+input.before { /* .text内のテキストボックス */
     border-width: 0px;
     border-style: none;
     font-size: 20px;
@@ -40,4 +40,54 @@ input { /* .text内のテキストボックス */
     -weblit-transform: translateY(4px);
     transform: translateY(4px);
     border-bottom: none;
+}
+
+.ibluem { /* 検索後のIBlueMの文字 */
+    font-size: 40px;
+    margin: 5px 20px;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: royalblue;
+    display: inline-block;
+}
+
+.Text { /* 検索ワードをいれる領域(遷移後) */
+    margin: 0px 30px;
+    padding: 0.5em 1em;
+    border: solid 1px gainsboro;
+    border-radius: 30px;
+    height: 30px;
+    width: 600px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+input.after { /* .text内のテキストボックス */
+    border-width: 0px;
+    border-style: none;
+    font-size: 16px;
+    background-color: white;
+    width: 570px;
+    height: 20px;
+}
+
+.title { /* 検索結果タイトル */
+    font-size: 22px;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.main { /* 検索結果本文 */
+    font-size: 13px;
+    color: gray;
+}
+
+.result {
+    margin: 0px 200px;
+    width: 650px;
+}
+
+hr {
+   border-width: 1px 0px 0px 0px;
+   border-style: solid;
+   border-color: gainsboro;
 }
