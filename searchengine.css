@@ -86,14 +86,14 @@ input.after { /* .text内のテキストボックス */
     width: 650px;
 }
 
-hr {
-   border-width: 1px 0px 0px 0px;
-   border-style: solid;
-   border-color: gainsboro;
-}
-
 .bold {
     text-decoration: none;
     border-bottom: 2px solid black;
     padding-bottom: 6px;
+}
+
+hr {
+   border-width: 1px 0px 0px 0px;
+   border-style: solid;
+   border-color: gainsboro;
 }
