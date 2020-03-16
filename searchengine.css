@@ -92,7 +92,7 @@ hr {
    border-color: gainsboro;
 }
 
-#bold {
+span#bold {
     text-decoration: none;
     border-bottom: 2px solid black;
     padding-bottom: 6px;
